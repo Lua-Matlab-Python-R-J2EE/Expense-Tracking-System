@@ -1,0 +1,71 @@
+
+2025-08-01 22:43:41,608 - db_helper - INFO - retrieve_expenses_by_date function called with date 2025-08-01
+2025-08-01 22:43:41,658 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-01 22:45:17,571 - db_helper - INFO - retrieve_expenses_by_date function called with date 2025-08-02
+2025-08-01 22:45:17,610 - db_helper - INFO - retrieve_expenses_by_date function called with date 2025-08-02
+2025-08-01 22:45:17,645 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-02 - 2024-08-05
+2025-08-02 02:14:27,718 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:33:39,318 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:36:41,273 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:37:54,509 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:38:40,491 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:42:32,226 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:44:03,483 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 02:58:34,920 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 03:01:59,551 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-02
+2025-08-02 03:02:04,139 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-03
+2025-08-02 03:02:09,492 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-04
+2025-08-02 03:02:15,183 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-05
+2025-08-02 03:02:19,967 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-06
+2025-08-02 03:16:15,858 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-07
+2025-08-02 03:17:54,372 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-07
+2025-08-02 03:17:54,612 - db_helper - INFO - delete_expenses_by_date function called with date 2024-08-07
+2025-08-02 03:17:54,649 - db_helper - INFO - create_expense function called with params 2024-08-07, 18.0, Other, Taxi fare
+2025-08-02 03:17:54,731 - db_helper - INFO - create_expense function called with params 2024-08-07, 35.0, Other, Boat fare
+2025-08-02 03:17:54,778 - db_helper - INFO - create_expense function called with params 2024-08-07, 20.0, Food, Lunch on boat
+2025-08-02 03:18:14,793 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-06
+2025-08-02 03:18:17,830 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-07
+2025-08-02 19:05:04,589 - db_helper - INFO - fetch_expense_summary function called between dates 2025-08-01 - 2025-08-05
+2025-08-02 19:05:27,629 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:12:08,721 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-04
+2025-08-02 19:12:27,906 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:14:47,353 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:15:16,290 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:15:40,428 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:15:55,760 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:16:18,608 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:16:42,515 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:18:05,516 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:19:32,034 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:20:41,142 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:21:48,448 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:22:15,642 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:22:37,659 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 19:35:35,476 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-02
+2025-08-02 20:42:51,908 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 20:45:19,563 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 20:51:45,603 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 20:51:55,851 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 20:51:56,021 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 20:59:43,143 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:00:00,486 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:00:08,719 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:00:08,921 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 21:05:27,298 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:05:30,000 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:05:30,233 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 21:07:18,222 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:07:21,549 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:07:21,619 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 21:08:01,055 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:08:02,613 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:08:02,683 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 21:11:01,591 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:11:03,709 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:11:03,793 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 21:12:05,532 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:12:07,661 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:12:08,022 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
+2025-08-02 21:15:22,591 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:15:28,173 - db_helper - INFO - retrieve_expenses_by_date function called with date 2024-08-01
+2025-08-02 21:15:28,314 - db_helper - INFO - fetch_expense_summary function called between dates 2024-08-01 - 2024-08-05
