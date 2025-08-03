@@ -1,0 +1,58 @@
+'''
+
+- Website:  https://streamlit.io/
+- From terminal, run 'streamlit run ./app.py' to see the output of streamlite UI file
+
+------------------------------EXAMPLES------------------------------
+st.title("Expense Management System")
+
+expense_date  = st.date_input("Enter your expense date: ")
+if expense_date:
+    st.write(f"Fetching expenses for date: {expense_date}") # printing text below the date panel
+
+# TEXT ELEMENTS
+st.header("Streamlit core features")
+st.subheader("Text Elements")
+st.text("This is a simple text element")
+
+# DATA DISPLAY 1
+st.subheader("Data Display 1")
+st.write("Here is a simple table:")
+st.table({ "Column 1": [123, 456, 789], "Column 2": [12, 34, 56] })
+
+# DATA DISPLAY 2 WITH DATAFRA<E
+st.subheader("Data Display 1")
+st.write("Here is a simple table from dataframe:")
+
+df = pd.DataFrame({
+    "Date"   : ["2024-08-01", "2024-08-02", "2024-08-03"],
+    "Amount" : [250, 134, 340]
+})
+st.table( df )
+
+# CHARTS
+st.subheader("Charts")
+st.line_chart([1, 2, 3, 4])
+
+# SLIDER USER INPUT
+st.subheader("User Input")
+value = st.slider("Select a value", 0 , 100)
+st.write(f"Selected value: {value}")
+
+# -----------------------------------------------
+
+st.title("Interactive Widgets Example")
+
+# CHECKBOX
+if st.checkbox("Show/Hide"):
+    st.write("checkbox is checked!")
+
+# SELECTBOX
+option = st.selectbox("Select a Category", ["Rent", "Food", "Shopping", "Etc"], label_visibility="collapsed")
+st.write(f"You selected: {option}")
+
+# MULTISELECT
+options = st.multiselect("Select multiple numbers", [1, 2, 3, 4])
+st.write(f"You selected: {options}")
+
+'''
