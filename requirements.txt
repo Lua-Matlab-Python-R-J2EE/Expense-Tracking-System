@@ -1,0 +1,16 @@
+# When someone wants to run this project, they can just run the following command in terminal to install
+# all the packages required for the project in a single line as follows:
+# pip install -r ./requirements.txt
+
+mysql-connector-python==9.4.0
+python-dateutil==2.9.0.post0
+streamlit==1.47.1
+requests==2.32.4
+systemd-python==234
+pandas==2.3.1
+python-dateutil==2.9.0.post0
+pydantic==2.11.7
+pytest==8.4.1
+fastapi==0.116.1
+
+
