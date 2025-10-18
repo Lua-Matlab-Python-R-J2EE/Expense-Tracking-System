@@ -86,7 +86,7 @@ streamlit run app.py
 | **CRUD Operations** | `db_helper.py` implementation | **Complete** |  
 | **Database Unit Tests** | Test coverage for `db_helper.py` | **Complete** |
 
----
+
 
 ## Phase 2: FastAPI Backend Development
 | Endpoint | Description | Status |
@@ -98,14 +98,14 @@ streamlit run app.py
 | **Analytics by Month** | Monthly expense trends | **In Progress** |
 | **Postman Testing** | Monthly analytics validation | **Pending** |
 
----
+
 
 ## Phase 3: System Monitoring
 | Component | Description | Status |
 |-----------|-------------|---------|
 | **Logging System** | `server.py` and `db_helper.py` logging | **Complete** |
 
----
+
 
 ## Phase 4: Streamlit Frontend
 | Screen | Description | Status |
