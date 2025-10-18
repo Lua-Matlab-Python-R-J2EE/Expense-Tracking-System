@@ -37,14 +37,14 @@ pip install -r requirements.txt
 cd backend
 fastapi dev server.py
 ```
-*Server will be available at: `http://localhost:8000`*
+*Server may be available at: `http://localhost:8000`*
 
 ### 4. **Run the Streamlit App**
 ```bash
 cd frontend
 streamlit run app.py
 ```
-*App will be available at: `http://localhost:8501`*
+*App may be available at: `http://localhost:8501`*
 
 ---
 
@@ -71,9 +71,9 @@ streamlit run app.py
 
 **Key Components:**
 - **Frontend Layer**: Interactive Streamlit interface
-- **API Layer**: RESTful FastAPI endpoints
-- **Data Layer**: MySQL database with CRUD operations
-- **Analytics**: Real-time expense categorization and reporting
+- **API Layer**:      RESTful FastAPI endpoints
+- **Data Layer**:     MySQL database with CRUD operations
+- **Analytics**:      Real-time expense categorization and reporting
 
 ---
 
