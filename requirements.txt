@@ -1,16 +1,76 @@
-# When someone wants to run this project, they can just run the following command in terminal to install
-# all the packages required for the project in a single line as follows:
-# pip install -r ./requirements.txt
+# ==================================================================================================
+# REQUIREMENTS FILE FOR: Expense Management System
+# --------------------------------------------------------------------------------------------------
+# PURPOSE:
+#   This file lists all Python packages (and their exact versions) required to run the entire project.
+#
+# USAGE:
+#   To install all dependencies in one command, run this in your terminal:
+#
+#       pip install -r ./requirements.txt
+#
+#   This ensures your Python environment has the same library versions used by the developer.
+# --------------------------------------------------------------------------------------------------
+# NOTES:
+#   • Each line specifies one package and its version (package==version).
+#   • Version pinning ensures reproducibility and avoids compatibility issues.
+# ==================================================================================================
 
-mysql-connector-python==9.4.0
-python-dateutil==2.9.0.post0
-streamlit==1.47.1
-requests==2.32.4
-systemd-python==234
-pandas==2.3.1
-python-dateutil==2.9.0.post0
-pydantic==2.11.7
-pytest==8.4.1
-fastapi==0.116.1
+
+# ----------------------------
+# DATABASE CONNECTIVITY
+# ----------------------------
+mysql-connector-python==9.4.0     # Official MySQL driver for Python; used to connect to MySQL DB
 
 
+# ----------------------------
+# DATE AND TIME UTILITIES
+# ----------------------------
+python-dateutil==2.9.0.post0      # Extended date/time support beyond Python's built-in datetime module
+
+
+# ----------------------------
+# FRONTEND (WEB UI)
+# ----------------------------
+streamlit==1.47.1                 # Framework for building interactive web UIs directly in Python
+
+
+# ----------------------------
+# API COMMUNICATION
+# ----------------------------
+requests==2.32.4                  # Simplifies sending HTTP requests to the FastAPI backend
+
+
+# ----------------------------
+# SYSTEM INTEGRATION
+# ----------------------------
+systemd-python==234               # Provides access to systemd features (optional; used for service logging)
+
+
+# ----------------------------
+# DATA HANDLING AND PROCESSING
+# ----------------------------
+pandas==2.3.1                     # Core data analysis and manipulation library for Python (DataFrames)
+
+
+# ----------------------------
+# DATA VALIDATION / MODELING
+# ----------------------------
+pydantic==2.11.7                  # Ensures data validation and parsing for FastAPI request/response models
+
+
+# ----------------------------
+# TESTING FRAMEWORK
+# ----------------------------
+pytest==8.4.1                     # Testing framework used to write and run unit tests
+
+
+# ----------------------------
+# BACKEND (API SERVER)
+# ----------------------------
+fastapi==0.116.1                  # High-performance Python framework for building REST APIs
+
+
+# ==================================================================================================
+# END OF FILE
+# ==================================================================================================
