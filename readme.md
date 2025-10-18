@@ -119,10 +119,10 @@ streamlit run app.py
 ## Development Methodology
 
 > **Vertical Development Approach**: We follow a complete feature-to-feature development cycle:
-
-1. **Add/Update Screen**     --> Frontend + Backend + Testing
-2. **Analytics by Category** --> Frontend + Backend + Testing  
-3. **Analytics by Month**    --> Frontend + Backend + Testing
+|--------|-------------|---------|
+| 1. | **Add/Update Screen**     --> | Frontend + Backend + Testing |
+| 2. | **Analytics by Category** --> | Frontend + Backend + Testing |
+| 3. | **Analytics by Month**    --> | Frontend + Backend + Testing |
 
 This ensures each feature is fully functional before moving to the next, enabling continuous testing and user feedback.
 
