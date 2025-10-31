@@ -1,0 +1,23 @@
+
+Enum "expenditure_expenditure_utility_enum" {
+  "TRAVEL"
+  "ACCOMMODATION"
+  "SUBSISTENCE"
+  "LEISURE"
+}
+
+Enum "expenditure_expenditure_mode_enum" {
+  "CARD"
+  "CASH"
+  "UPI"
+}
+
+Table "expenditure" {
+  "unique_id" int [pk, not null]
+  "expenditure_date" date [default: NULL]
+  "expenditure_amount" float [default: NULL]
+  "expenditure_utility" expenditure_expenditure_utility_enum [default: NULL]
+  "expenditure_mode" expenditure_expenditure_mode_enum [default: NULL]
+  "expenditure_reason" varchar(255) [default: NULL]
+}
+
