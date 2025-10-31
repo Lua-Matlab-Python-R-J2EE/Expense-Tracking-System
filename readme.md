@@ -13,6 +13,7 @@ expense-tracking-system/
 ├── frontend/         → Streamlit UI components and pages
 ├── backend/          → FastAPI server and API endpoints
 ├── tests/            → Unit tests and integration tests
+├── db_schema/        → Database schema/diagram without the sql file
 ├── requirements.txt  → Python dependencies
 └── README.md         → Project documentation
 ```
