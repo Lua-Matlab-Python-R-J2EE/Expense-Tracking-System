@@ -24,8 +24,6 @@ EFFECT:
     This ensures that all project modules (inside src/backend/, etc.) can be imported
     directly without causing `ModuleNotFoundError`.
 
-AUTHOR:
-    (Your Name)
 =========================================================================================
 """
 
