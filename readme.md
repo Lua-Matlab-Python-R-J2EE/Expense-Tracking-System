@@ -1,144 +1,98 @@
-# Expense Tracking System
+# Expense Tracking System — Full-Stack Data Application
 
-## Project Description
+## Overview
 
-A comprehensive expense management application built with FastAPI backend and Streamlit frontend, featuring real-time analytics and MySQL database integration for efficient personal finance tracking.
+A full-stack personal finance application for tracking, categorising, and analysing expenses in real time. Built with a three-tier architecture: Streamlit frontend, FastAPI REST backend, and MySQL database — demonstrating end-to-end software engineering beyond a typical data science notebook.
 
----
-
-## Project Structure
-
-```
-expense-tracking-system/
-├── frontend/         → Streamlit UI components and pages
-├── backend/          → FastAPI server and API endpoints
-├── tests/            → Unit tests and integration tests
-├── db_schema/        → Database schema/diagram without the sql file
-├── requirements.txt  → Python dependencies
-└── README.md         → Project documentation
-```
+**Key capabilities:**
+- Add, update, and delete expense records via an interactive UI
+- Real-time analytics by category and monthly trends
+- RESTful API with full unit and integration test coverage
+- Persistent storage with a structured relational database schema
 
 ---
 
-## Project Setup Instructions
-
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/your-username/expense-tracking-system.git
-cd expense-tracking-system
-```
-
-### 2. **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-### 3. **Run the FastAPI Server**
-```bash
-cd backend
-fastapi dev server.py
-```
-*Server may be available at: `http://localhost:8000`*
-
-### 4. **Run the Streamlit App**
-```bash
-cd frontend
-streamlit run app.py
-```
-*App may be available at: `http://localhost:8501`*
-
----
-
-## Architecture Diagram
-
+## Architecture
 ```
 ┌─────────────────────┐
-│   Streamlit UI      │  ← User Interface (Add/Update, Analytics)
-│   (Frontend)        │
+│   Streamlit UI      │  ← Interactive frontend (Add/Update, Analytics)
 └─────────┬───────────┘
-          │
+          │ HTTP
           ▼
 ┌─────────────────────┐
-│   FastAPI Server    │  ← REST API Endpoints
-│   (Backend)         │
+│   FastAPI Server    │  ← REST API (CRUD endpoints, analytics routes)
 └─────────┬───────────┘
-          │
+          │ SQL
           ▼
 ┌─────────────────────┐
-│   MySQL Database    │  ← Data Storage (Expenses, Categories)
-│   (Data Layer)      │
+│   MySQL Database    │  ← Persistent storage (expenses, categories)
 └─────────────────────┘
 ```
-
-**Key Components:**
-- **Frontend Layer**: Interactive Streamlit interface
-- **API Layer**:      RESTful FastAPI endpoints
-- **Data Layer**:     MySQL database with CRUD operations
-- **Analytics**:      Real-time expense categorization and reporting
-
----
-
-# EXPENSE TRACKING SYSTEM - Development Roadmap
-
-## Phase 1: Database Foundation
-| Component | Description | Status |
-|-----------|-------------|---------|
-| **MySQL Database Setup** | Reference: `15.3_and_15.4_IMP.py` | **Complete** |
-| **CRUD Operations** | `db_helper.py` implementation | **Complete** |  
-| **Database Unit Tests** | Test coverage for `db_helper.py` | **Complete** |
-
-
-
-## Phase 2: FastAPI Backend Development
-| Endpoint | Description | Status |
-|----------|-------------|---------|
-| **Add/Update Expenses** | Fetch expenses by date for population | **Complete** |
-| **Postman Testing** | API endpoint validation | **Complete** |
-| **Analytics by Category** | Category-wise expense breakdown | **Complete** |
-| **Postman Testing** | Category analytics validation | **Complete** |
-| **Analytics by Month** | Monthly expense trends | **In Progress** |
-| **Postman Testing** | Monthly analytics validation | **Pending** |
-
-
-
-## Phase 3: System Monitoring
-| Component | Description | Status |
-|-----------|-------------|---------|
-| **Logging System** | `server.py` and `db_helper.py` logging | **Complete** |
-
-
-
-## Phase 4: Streamlit Frontend
-| Screen | Description | Status |
-|--------|-------------|---------|
-| **Add/Update Screen** | Expense entry and modification interface | **Complete** |
-| **Analytics by Category** | Visual category-wise reports | **Complete** |
-| **Analytics by Month** | Monthly trend visualization | **In Progress** |
-
----
-
-## Development Methodology
-
-> **Vertical Development Approach**: We follow a complete feature-to-feature development cycle:
-
-| # | Feature                  | Implementation                        |
-|---|--------------------------|---------------------------------------|
-| 1 | **Add/Update Screen**    | Frontend ➜ Backend ➜ Testing          |
-| 2 | **Analytics by Category**| Frontend ➜ Backend ➜ Testing          |
-| 3 | **Analytics by Month**   | Frontend ➜ Backend ➜ Testing          |
-
-This ensures each feature is fully functional before moving to the next, enabling continuous testing and user feedback.
-
 
 ---
 
 ## Tech Stack
 
 | Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Frontend** | Streamlit | Interactive web interface |
-| **Backend** | FastAPI | High-performance API server |
-| **Database** | MySQL | Reliable data persistence |
-| **Testing** | Postman | API endpoint validation |
+|---|---|---|
+| Frontend | Streamlit | Interactive web UI |
+| Backend | FastAPI | High-performance REST API |
+| Database | MySQL | Relational data persistence |
+| Testing | Postman + Unit Tests | API validation and DB coverage |
 
 ---
+
+## Project Structure
+```
+expense-tracking-system/
+├── frontend/         → Streamlit UI pages and components
+├── backend/          → FastAPI server and API endpoints
+├── tests/            → Unit tests and integration tests
+├── db_schema/        → Database schema and ER diagram
+└── requirements.txt  → Python dependencies
+```
+
+---
+
+## Setup & Running Locally
+
+### 1. Clone and install dependencies
+```bash
+git clone https://github.com/Lua-Matlab-Python-R-J2EE/expense-tracking-system.git
+cd expense-tracking-system
+pip install -r requirements.txt
+```
+
+### 2. Start the FastAPI backend
+```bash
+cd backend
+fastapi dev server.py
+# API available at http://localhost:8000
+```
+
+### 3. Launch the Streamlit frontend
+```bash
+cd frontend
+streamlit run app.py
+# App available at http://localhost:8501
+```
+
+---
+
+## Features & Status
+
+| Feature | Backend | Frontend | Tests |
+|---|---|---|---|
+| Add / Update Expenses | ✅ | ✅ | ✅ |
+| Analytics by Category | ✅ | ✅ | ✅ |
+| Analytics by Month | 🔄 In progress | 🔄 In progress | ⏳ Pending |
+| Logging & Monitoring | ✅ | — | — |
+
+---
+
+## Development Approach
+
+Features are built vertically — backend -> frontend -> tests — completing one feature end-to-end before starting the next. This ensures each slice of functionality is fully working and tested before moving on, and keeps the codebase in a continuously deployable state.
+
+---
+
